@@ -1,19 +1,51 @@
+# 📘 Assignment: Hangman Game Challenge
 
-# 🎮 Hangman Game Challenge
+## 🎯 Objective
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+Build a classic Hangman game in Python where a player guesses letters to reveal a hidden word. You will practice strings, loops, conditionals, random selection, and handling user input.
 
-## � What You'll Build
+## 📝 Tasks
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+### 🛠️ Word Selection and Game Setup
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+#### Description
 
-## ✅ Must Have's
+Create the word list and initialize the game state before the player starts guessing.
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+#### Requirements
+
+Completed program should:
+
+- Randomly select a word from a predefined list.
+- Set up the number of allowed incorrect guesses.
+- Display the hidden word as underscores before any guesses are made.
+
+### 🛠️ Letter Guessing and Progress Display
+
+#### Description
+
+Accept letter guesses from the player and update the displayed progress after each valid guess.
+
+#### Requirements
+
+Completed program should:
+
+- Prompt the player to enter one letter at a time.
+- Show the current word progress in underscore format after each guess.
+- Reveal correctly guessed letters in their proper positions.
+- Prevent the game from crashing when the player enters an invalid guess.
+
+### 🛠️ Win and Lose Conditions
+
+#### Description
+
+Detect when the game is complete and show the appropriate ending message.
+
+#### Requirements
+
+Completed program should:
+
+- Track incorrect guesses remaining.
+- End the game when the word is fully guessed.
+- End the game when attempts run out.
+- Display a clear win or lose message at the end.
