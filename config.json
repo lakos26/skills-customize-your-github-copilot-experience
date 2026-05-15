@@ -72,6 +72,25 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "cleaning-messy-data",
+      "title": "Cleaning Messy Data with Pandas",
+      "description": "Cleaning and transforming messy data with Pandas",
+      "path": "assignments/cleaning-messy-data",
+      "dueDate": "2026-05-22",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        },
+        {
+          "name": "Sample Dataset",
+          "file": "data.csv",
+          "type": "csv"
+        }
+      ]
     }
   ]
 }
